@@ -1,0 +1,67 @@
+houdini
+
+shortcuts
+D				- viewport settings
+W				- wireframe
+shift + enter	- connect 
+ctrl + 1, 2, 3	- bookmark
+alt + move		- duplicate
+ctrl + b 		- maximize / minimize
+
+
+
+SOPS
+alembic:	
+	unpack
+	npo poly soup primitives
+
+explode view
+copy to points:
+	to scatter on geo
+VDB from polygons:
+	convert to volume
+isoOffset:
+	convert to volume
+scatter
+
+pointVOB:
+	add random elements, randomize topo
+
+attribRandomize:
+	eg normals: N
+
+point wrangle:
+	add expression to points
+
+attribTransfer:
+	transfer atributes from geo to geo
+blast:
+	@Cd.r>0
+		if red color greqater 0, do something
+color (Cd):
+	Random for attribute, eg custom attribute like class
+connectivity:
+	makes a new attribute, eg class
+bind:
+	catches an attribute, eg class
+	use it to color all class objects
+
+clip:
+	look inside an object
+boolean:
+	merge objects together	
+
+DOPS
+for rbd sim:
+	add groundplane
+	rigid body solver
+	gravity
+
+	alternative multisolver:
+		feed rigid vody solver into
+		add sopSolver:
+			group points to activate for sim
+			group:
+				attribWrangle:
+					i@active = 1;
+
