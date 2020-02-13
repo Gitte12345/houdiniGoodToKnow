@@ -58,10 +58,22 @@ for rbd sim:
 	gravity
 
 	alternative multisolver:
-		feed rigid vody solver into
+		feed rigid body solver into
 		add sopSolver:
 			group points to activate for sim
 			group:
 				attribWrangle:
 					i@active = 1;
+
+radial force:
+	metaball --> force
+
+ABC export
+dopImport
+	DOP Network: link to dop net
+	Object Mask: rbd packed object
+	Fetch geo rfom DOP Network
+
+rop alembic
+	export alembic
 
