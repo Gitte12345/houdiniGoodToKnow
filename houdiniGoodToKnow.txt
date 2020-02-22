@@ -77,3 +77,52 @@ dopImport
 rop alembic
 	export alembic
 
+timeshift
+	shift animation
+
+attributeWrangle	
+	adds VEP expressions
+		example: 
+		eg make a circle
+		attributeWrangle
+		@N = @P;
+		--> all normals point outwards
+
+assemble	
+	generate names and groups
+
+for each loops
+	for each primitive
+	example: clean up mesh for sim:
+		remesh
+			--> to get less polygons
+		clean
+			--> merge points, clean overlaps and intersections
+		fuse
+			--> close holes, consolidate geo
+
+-------------------
+SIM
+-------------------
+
+vellum configure soft bodies
+	finished softbody setup
+
+vellum constraints
+	add constraints to cloth / can add collider objects
+
+vellum solver 
+
+-------------------
+DEFORM
+-------------------
+point deform
+	wraps high to low geo
+	inputs:
+	1. geo to deform
+	2. rest length
+	3. mesh defining deformation (in general the low res mesh)
+
+
+
+		  
