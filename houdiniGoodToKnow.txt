@@ -124,5 +124,22 @@ point deform
 	3. mesh defining deformation (in general the low res mesh)
 
 
+-------------------
+BRING FILES IN HOUDINI
+-------------------
+object merge
+
+arnold_procedural
+	Geometry File --> ass file
 
 		  
+-------------------
+ATTRIBUTES
+-------------------
+Cd
+	Color Diffuse
+up
+	up Vector
+N
+pscale
+	scale
