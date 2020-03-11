@@ -10,7 +10,9 @@ ctrl + b 		- maximize / minimize
 
 
 
+-------------------
 SOPS
+-------------------
 alembic:	
 	unpack
 	npo poly soup primitives
@@ -37,7 +39,7 @@ attribTransfer:
 	transfer atributes from geo to geo
 blast:
 	@Cd.r>0
-		if red color greqater 0, do something
+		if red color greater 0, do something
 color (Cd):
 	Random for attribute, eg custom attribute like class
 connectivity:
@@ -51,7 +53,9 @@ clip:
 boolean:
 	merge objects together	
 
+-------------------
 DOPS
+-------------------
 for rbd sim:
 	add groundplane
 	rigid body solver
@@ -101,6 +105,9 @@ for each loops
 		fuse
 			--> close holes, consolidate geo
 
+relax
+	relax point, distribute evenly to avoid intersections
+
 -------------------
 SIM
 -------------------
@@ -143,3 +150,14 @@ up
 N
 pscale
 	scale
+
+-------------------
+VARIABLES
+-------------------
+$OS
+	node name, eg rename the group to $OS gives you a relative group name
+
+-------------------
+WORKFLOW
+-------------------
+Copy Parameter
