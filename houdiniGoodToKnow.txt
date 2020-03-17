@@ -53,6 +53,9 @@ clip:
 boolean:
 	merge objects together	
 
+blast
+	delete parts, eg groups
+	eg: @Cd.x<0.7
 -------------------
 DOPS
 -------------------
@@ -161,3 +164,20 @@ $OS
 WORKFLOW
 -------------------
 Copy Parameter
+
+-------------------
+PXO TOOLS
+-------------------
+PXO Menu
+	Submit To Shotgun
+	Assemble Shot
+	Context
+	Shotgun Notes...
+
+	Save and Load
+
+fx cache
+
+deadline
+
+
