@@ -7,7 +7,7 @@ shift + enter	- connect
 ctrl + 1, 2, 3	- bookmark
 alt + move		- duplicate
 ctrl + b 		- maximize / minimize
-
+shift + r 		- swap inputs
 
 
 -------------------
@@ -122,6 +122,16 @@ vellum constraints
 	add constraints to cloth / can add collider objects
 
 vellum solver 
+
+
+-------------------
+POPs
+-------------------
+collision for particles
+merge
+	1. staticSolver
+	2. popsolver
+
 
 -------------------
 DEFORM
